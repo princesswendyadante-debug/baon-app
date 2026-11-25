@@ -56,7 +56,10 @@ body {
     padding: 1.1rem;
     box-shadow: 0 4px 18px rgb(21 26 59 / 0.08);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c33ad949101bcf009421660a7bb0027f3530f7e3
 h2 { margin: 0 0 0.5rem; font-size: 1.1rem; }
 .muted { color: var(--muted); margin: 0; }
 .hero { background: var(--ink); color: white; }
@@ -65,12 +68,18 @@ h2 { margin: 0 0 0.5rem; font-size: 1.1rem; }
     font-size: clamp(2rem, 9vw, 3rem); font-weight: 800;
     margin: 0.2rem 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c33ad949101bcf009421660a7bb0027f3530f7e3
 .bar {
     height: 12px; border-radius: 99px; overflow: hidden;
     background: rgb(255 255 255 / 0.15); margin-bottom: 0.5rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c33ad949101bcf009421660a7bb0027f3530f7e3
 .bar > i {
     display: block; height: 100%; border-radius: inherit;
     background: var(--lime);
@@ -202,6 +211,7 @@ input:focus, select:focus {
 }
 
 .toast[hidden] { display: none; }
+<<<<<<< HEAD
 .toast button {
     border: 0; border-radius: 8px; padding: 0.35rem 0.7rem;
     background: var(--lime); font-weight: 700; cursor: pointer;
@@ -211,14 +221,43 @@ input:focus, select:focus {
 
 @media (display-mode: standalone) {
 #installBtn { display: none; }
+=======
+
+.toast button {
+
+border: 0; border-radius: 8px; padding: 0.35rem 0.7rem;
+
+background: var(--lime); font-weight: 700; cursor: pointer;
+}
+/* ---- installed (standalone) mode ---- */
+
+@media (display-mode: standalone) {
+
+#installBtn { display: none; }
+
+>>>>>>> c33ad949101bcf009421660a7bb0027f3530f7e3
 }
 
 /* ---- larger screens: tab bar becomes a pill ---- */
 
 @media (min-width: 900px) {
+<<<<<<< HEAD
     .tabbar {
         inset: auto 50% 1rem auto; transform: translateX(50%);
         width: 480px; border-radius: 99px;
         border: 1px solid var(--line);
     }
+=======
+
+.tabbar {
+
+inset: auto 50% 1rem auto; transform: translateX(50%);
+
+width: 480px; border-radius: 99px;
+
+border: 1px solid var(--line);
+
+}
+
+>>>>>>> c33ad949101bcf009421660a7bb0027f3530f7e3
 }
